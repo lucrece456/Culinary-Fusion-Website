@@ -64,7 +64,7 @@ Contact Information
 For any questions or collaboration, feel free to contact me:
 
 Helen Chris
-Email: [your-email@example.com]
+Email: Chrisheln410@gmail.com
 
 This project is part of the coursework for demonstrating front-end development skills.
 
