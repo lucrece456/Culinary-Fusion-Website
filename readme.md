@@ -1,18 +1,89 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/GGwkV7WK)
-# CTEC3905 Assignment
+# Cooking Website Project 🍽️
 
-This repository contains basic boilerplate code for you to get started with.
+## Project Overview
 
-You will need to replace the contents of these files with your own code.
+This project is developed as part of a coursework assignment to create a web-based platform showcasing various recipes and cooking tips. The website demonstrates knowledge of **HTML**, **CSS**, **JavaScript**, **APIs**, and **JSON**, with a focus on front-end development and **Git version control**.
 
-## index.html
+## Key Features
 
-The `index.html` file includes a basic template with a link to the `css/styles.css` file and a script tag after the main content which links to the `js/scripts.js` file.
+1. **Homepage:**
+   - Displays a curated selection of featured recipes and cooking tips.
+   - Includes a navigation bar for easy access to other sections of the website.
 
-## css/styles.css
+2. **Recipes Page:**
+   - A list of different categories such as breakfast, lunch, dinner, and desserts.
+   - Each recipe comes with a detailed description, images, and step-by-step instructions.
 
-The `css/styles.css` file contains a basic starting template for a responsive page.
+3. **Cooking Tips Page:**
+   - Useful tips for enhancing cooking skills and preparing meals efficiently.
+   - Integration of third-party cooking tips using **API**.
 
-## js/scripts.js
+4. **Contact Page:**
+   - A simple contact form for users to submit inquiries or feedback.
+   - Validations and responsive design for better user experience.
 
-The `js/scripts.js` file contains a simple console.log statement to confirm that it is being executed.
+## Technologies Used
+
+- **HTML**: For structuring the web pages.
+- **CSS**: For styling and layout, ensuring the website is responsive and visually appealing.
+- **JavaScript**: Used for interactivity and DOM manipulation.
+- **APIs**: Fetching data and content from external sources (e.g., recipes or cooking tips).
+- **JSON**: Managing data for recipes and user interactions.
+
+## Project Structure
+
+- The project consists of **4 main pages**:
+  - **Home Page**: Introduction and featured recipes.
+  - **Recipes Page**: Lists various recipes categorized for different meals.
+  - **Cooking Tips Page**: Provides cooking tips and tricks.
+  - **Contact Page**: Users can submit messages through a contact form.
+  
+- The website is designed as a **Single Page Application (SPA)** with distinct screen sections for each part of the project.
+
+## How to Run the Project
+
+1. Clone the repository using Git:
+   ```bash
+   git clone https://github.com/lucrece456/Cooking-Website.git
+Open the index.html file in a web browser to view the website.
+Responsive Design and Accessibility
+
+The website is fully responsive, ensuring a seamless user experience across devices, including desktops, tablets, and mobile phones.
+Accessibility features are implemented to improve user interaction for individuals with disabilities, following web accessibility standards.
+Git Version Control
+
+Git has been used for tracking changes, maintaining version control, and collaborating on the project.
+The repository includes multiple commits demonstrating the development process from initial setup to final deployment.
+Live Demo
+
+You can view the live version of the website here:
+Live Cooking Website
+
+Contact Information
+
+For any questions or collaboration, feel free to contact me:
+
+Helen Chris
+Email: [your-email@example.com]
+
+This project is part of the coursework for demonstrating front-end development skills.
+
+ruby
+Copy code
+
+### Steps to Add to Terminal:
+
+1. **Create the README.md File:**
+   ```bash
+   touch README.md
+Open the README.md File for Editing:
+bash
+Copy code
+nano README.md
+Paste the Content: Paste the content from above into the file, then save and exit (CTRL + X, then Y).
+Add, Commit, and Push to GitHub:
+bash
+Copy code
+git add README.md
+git commit -m "Added README for Cooking Website"
+git push origin main
