@@ -1,0 +1,19 @@
+*{ box-sizing: -box;}
+
+body {
+  background: rgb(231, 230, 227);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.recipe-card { background: white;margin: 10px auto
+}
+.content {
+padding-left: 25px;
+
+}
+
+

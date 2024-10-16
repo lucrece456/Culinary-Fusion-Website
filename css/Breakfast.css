@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+:root {	
+	font-size: 12px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+	min-height: 100vh;
+	background-image: 
+    linear-gradient(217deg, rgba(248, 248, 248, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(243, 243, 243, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(243, 243, 247, 0.8), rgba(0,0,255,0) 70.71%);
+}
+.body{
+  background: #3498db;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+.grid {
+	max-width: 100rem;
+	margin: 10px auto;	
+  padding: 10px;
+}
+
+.title {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.posts {
+  display: flex;
+	flex-wrap: wrap;	
+}
+
+.post {
+  flex: 1 0 24rem;
+  background: #fff;
+  margin: 1rem;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: box-shadow 0.3s cubic-bezier(.25, .8, .25, 1);
+  min-height: 250px;
+  font-size: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.post:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.post__toolbar {
+  position: relative;
+}
+
+.post__toolbar .material-icons {
+  position: absolute;
+  color: #fff;
+  padding: .5rem;
+  right: 15px;
+  top: 12px;
+}
+
+.post__toolbar .material-icons:hover {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  padding: .5rem;
+  transition: background .4s;
+}
+
+.post__content {
+  padding: 1rem;
+}
+
+.post__content--title {
+  font-size: 2rem;
+  font-weight: 900;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post__content--body {
+  color: #999;
+  font-size: 1rem;
+}
+
+
+/* IF CSS GRID SUPPORTED*/
+@supports (display: grid) {
+	.posts {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.post {
+		margin: 0;
+	}
+}
+
+/*==================== 
+	Footer 
+====================== */
+
+/* Main Footer */
+footer .main-footer{	padding: 20px 0;	background: #252525;}
+footer ul{	padding-left: 0;	list-style: none;}
+
+/* Copy Right Footer */
+.footer-copyright {	background: #222;	padding: 5px 0;}
+.footer-copyright .logo {    display: inherit;}
+.footer-copyright nav {    float: right;    margin-top: 5px;}
+.footer-copyright nav ul {	list-style: none;	margin: 0;	padding: 0;}
+.footer-copyright nav ul li {	border-left: 1px solid #505050;	display: inline-block;	line-height: 12px;	margin: 0;	padding: 0 8px;}
+.footer-copyright nav ul li a{	color: #969696;}
+.footer-copyright nav ul li:first-child {	border: medium none;	padding-left: 0;}
+.footer-copyright p {	color: #969696;	margin: 2px 0 0;}
+
+/* Footer Top */
+.footer-top{	background: #252525;	padding-bottom: 30px;	margin-bottom: 30px;	border-bottom: 3px solid #222;}
+
+/* Footer transparent */
+footer.transparent .footer-top, footer.transparent .main-footer{	background: transparent;}
+footer.transparent .footer-copyright{	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
+
+/* Footer light */
+footer.light .footer-top{	background: #f9f9f9;}
+footer.light .main-footer{	background: #f9f9f9;}
+footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}
+
+/* Footer 4 */
